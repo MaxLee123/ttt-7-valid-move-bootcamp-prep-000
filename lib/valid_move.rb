@@ -19,8 +19,8 @@ def valid_move?(board, index)
 
   if on_board?(num) == true && valid_move?(board, index) == true
     return true
-    else
-  return false
+  else
+    return false
     end
 end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.

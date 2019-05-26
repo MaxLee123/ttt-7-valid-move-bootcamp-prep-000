@@ -10,7 +10,7 @@ def valid_move(board, index)
 end
 
 def on_board?(num)
-    if num.between?(1, 8)
+    if num.between?(0, 8)
         execute something
     else
         execute something else

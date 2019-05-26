@@ -6,20 +6,20 @@ def valid_move(board, index)
       return false
     else
       return true
+    end
   end
-end
 
-def on_board?(num)
+  def on_board?(num)
     if num.between?(0, 8) == true
       return true
     else
       return false
     end
-end
+  end
 
-if on_board(num) == true && valid_move(board, index) == true
-  return true
-else
+  if on_board(num) == true && valid_move(board, index) == true
+    return true
+    else
   return false
 end
 end

@@ -9,8 +9,8 @@ def valid_move(board, index)
   end
 end
 
-def on_board?
-    if position_taken?
+def on_board?(num)
+    if num.between?(1, 8)
         execute something
     else
         execute something else

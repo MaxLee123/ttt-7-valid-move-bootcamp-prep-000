@@ -9,6 +9,8 @@ def valid_move(board, index)
   end
 end
 
+def valid_move
+    if position_taken?
         execute something
     else
         execute something else

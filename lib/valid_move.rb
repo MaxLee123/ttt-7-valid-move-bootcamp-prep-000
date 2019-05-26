@@ -11,9 +11,9 @@ end
 
 def on_board?(num)
     if num.between?(0, 8)
-        execute something
+      return true
     else
-        execute something else
+      return false
     end
 end
 
